@@ -1,4 +1,5 @@
-# <a href="https://github.com/openLRSng/openLRSngWiki/wiki">To Wiki</A>
+OpenLRSng Wiki
+--------------
 
 * [General Hardware Information](https://github.com/openLRSng/openLRSngWiki/wiki/Hardware-Guide)
 * [Basic functions - binding, failsafe, etc.](https://github.com/openLRSng/openLRSngWiki/wiki/Basic-functions-guide)
