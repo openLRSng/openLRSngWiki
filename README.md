@@ -1,19 +1,7 @@
 OpenLRSng Wiki
 --------------
 
-* [General Hardware Information](https://github.com/openLRSng/openLRSngWiki/wiki/Hardware-Guide)
-* [Basic functions - binding, failsafe, etc.](https://github.com/openLRSng/openLRSngWiki/wiki/Basic-functions-guide)
-* [Connecting hardware to a computer](https://github.com/openLRSng/openLRSngWiki/wiki/Connecting-to-a-computer)
-* [How to flash (software updates)](https://github.com/openLRSng/openLRSngWiki/wiki/Flashing-Guide)
-* [How to configure settings, and information on settings](https://github.com/openLRSng/openLRSngWiki/wiki/Settings-Guide)
-* [Guide to using the Telemetry features (2-way radio)](https://github.com/openLRSng/openLRSngWiki/wiki/Telemetry-guide)
-* [Using LBEEP (link loss beep over FPV audio)](https://github.com/openLRSng/openLRSngWiki/wiki/Using-the-LBEEP-feature)
-* [Using two RX:s for diversity (EXPERIMENTAL)](https://github.com/openLRSng/openLRSngWiki/wiki/Diversity)
-* [Using receivers as transmitters](https://github.com/openLRSng/openLRSngWiki/wiki/Using-Receiver-as-transmitter)
-* [Feature comparison of supported hardware](https://github.com/openLRSng/openLRSngWiki/wiki/supported-hardware---feature-table)
-* [Note on Spektrum TX compatibility] (https://github.com/openLRSng/openLRSngWiki/wiki/Note-on-Spektrum-transmitter-compatibility-(DX8-DX9-etc.))
-
-This repository should only be used to store images and additional content used in the wiki.
+Please browse the files in this repository to learn more about OpenLRSng. We welcome contributions to the documentation, which can be submitted by creating a local branch and a pull request.
 
 Important Warnings!!!
 ---------------------
