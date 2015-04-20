@@ -1,7 +1,9 @@
 OpenLRSng Wiki
 --------------
 
-Please browse the files in this repository to learn more about OpenLRSng. We welcome contributions to the documentation, which can be submitted by creating a local branch and a pull request.
+This repository houses the openLRSng documentation. Please browse through the files to learn more. 
+
+We welcome contributions to the documentation, which can be submitted by creating a local branch and a pull request.
 
 Important Warnings!!!
 ---------------------
