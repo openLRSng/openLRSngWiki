@@ -1,5 +1,15 @@
-### Transmitter hardware
+### General information
+All TX/RXs are compatible with each other. Some RXs can also be used as TXs.
 
+All receivers support 2 x analog input / I2C / telemetry serial port / up to 16ch PPM.
+
+####Servo channel outputs
+Servo PWM outputs can be mapped to any port. The DTF UHF 4-channel receiver has 6 such ports and the Hobbyking/Flytron RX has 13 such ports. The "extra" ports are the TX/RX and SDA/SCL pins. RC channels can be reused: for example, you may have RC channel 1 output on two different pins at the same time.
+
+####Special outputs
+Other port configurations can only be mapped to one pin. These outputs include: High-frequency RSSI and LBEEP; serial TX and RX; i2c signals (SDA and SCL); and PPM. Similarly, analogue inputs can only be enabled on specific pins.
+
+### Transmitter hardware
 | Name | Hardware type(no) | PPM input by timer | output power (unmodified) | integrated RF lowpass filter | integrated USB | link |
 | ---- | ------------------| ------------------ | ------------------------- | ---------------------------- | -------------- | ---- |
 | Hawkeye openLRSng (JR/Futaba) | 4 | yes | 400-800mW | - | no | [link](http://www.hobbiesfly.com/transmitter-receiver/hawkeye-openlrs-uhf-system-jr-turnigy-taranis-compatible.html) 
@@ -29,4 +39,22 @@
 |Brotronics 4ch remix | 5 | 100mW | 490MHz | tbd | yes | - | 31x17x8 5g | [link](http://www.hobbiesfly.com/transmitter-receiver/brotronics-4ch-remix-long-range-receiver.html)
 |OrangeRX/Flytron TX 100mW/1W| 2 | 1-100mW / 400mW | - | 7 | ? | - | tbd. | [link](https://www.hobbyking.com/hobbyking/store/__40031__OrangeRX_Open_LRS_433MHz_Transmitter_1W_compatible_with_Futaba_radio_.html)
 
-All receivers support 2 x analog input / I2C / telemetry serial port / up to 16ch PPM
+#### Hardware Notes
+
+##### DTF UHF 4-channel
+![4ch](https://raw.githubusercontent.com/openLRSng/openLRSngWiki/master/images/4ch.png)
+
+Version 2 and newer RXs also have the RSSI filter onboard, to filter High-Frequency RSSI into 0-3.3V RSSI. Enable the filter by soldering these two pads together:
+
+![solder jumper](https://raw.githubusercontent.com/openLRSng/openLRSngWiki/master/images/jumper.png)
+
+##### Hawkeye / Hobbyking / Flytron 9-channel
+![Hawkeye RX](https://raw.githubusercontent.com/openLRSng/openLRSngWiki/master/images/Hawkeye9ch.png)
+
+![HK rx](https://raw.githubusercontent.com/openLRSng/openLRSngWiki/master/images/hk.png)
+
+Note on Hawkeye 6ch/9ch ICSP pins
+---------------------------------
+Hawkeye 6ch/9ch receivers have non-standard ICSP pinout.
+
+![Hawkeye ICSP](https://raw.githubusercontent.com/openLRSng/openLRSngWiki/master/images/hawkeye-6ch-9ch-isp.jpg)
