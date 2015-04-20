@@ -1,6 +1,6 @@
 #### NOTE: this feature is experimental and should be used with care
 
-##### 1. Setting up modules the modules
+##### 1. Setting up the modules
 <ul>
  <li> Install custom beta firmware from http://openlrsng.org/beta/ (grab the latest)</li>
  <li> Use RX configurator to enable SCL and SDA outputs (from pinconfig)</li>
