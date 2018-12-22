@@ -1,0 +1,57 @@
+== Transmitter hardware ==
+{|
+! Name !! Hardware type(no) !! PPM input by timer !! output power (unmodified) !! integrated RF lowpass filter !! integrated USB !! link
+|-
+|Hawkeye openLRSng (JR/Futaba) || 4 || yes || 400-800mW || - || no || http://www.hobbiesfly.com/transmitter-receiver/hawkeye-openlrs-uhf-system-jr-turnigy-taranis-compatible.html
+|-
+|Hawkeye DTFUHF deluxe JR || 4 || yes || 400-800mW || 490MHZ || yes || http://www.hobbiesfly.com/transmitter-receiver/dtf-uhf-deluxetx-taranis-jr-turnigy-compatible.html
+|-
+|Hawkeye/DTFUHF deluxe TX || 6 || yes || 400-800mW || 490MHz || yes || http://www.hobbiesfly.com/transmitter-receiver/dtf-uhf-deluxetx-transmitter.html
+|-
+|Flytron M1 (100mW) || 0 || no || 1.2-100mW || - || no || N/A
+|-
+|OrangeRX openLRS / Flytron M2 (100mW) || 2 || no || 1.2-100mW || - || no || https://www.hobbyking.com/hobbyking/store/__27095__OrangeRx_Open_LRS_433MHz_TX_Module_JR_Turnigy_compatible_.html
+|-
+|OrangeRX openLRS / Flytron M3 (1W) || 2 || no || 250-500mW || - || no || https://www.hobbyking.com/hobbyking/store/__40031__OrangeRX_Open_LRS_433MHz_Transmitter_1W_compatible_with_Futaba_radio_.html
+|-
+|OrangeRX/Flytron 9ch RX || 3 || yes || 1.2-100mW || - || no || https://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_LRS_433MHz_9Ch_Receiver.html
+|-
+|Hawkeye 9ch RX (blue) || 3 || yes || 1.2-100mW || - || no || http://www.hobbiesfly.com/transmitter-receiver/hawkeye-9-channel-receiver.html
+|-
+|Hawkeye 9ch RX (black) || 3 || yes || 1.2-100mW || 490MHz || no || http://www.hobbiesfly.com/transmitter-receiver/hawkeye-9-channel-long-range-receiver.html
+|-
+|Hawkeye/DTFUHF 6(/4)ch || 5 || yes || 1.2-100mW || 490MHz || no || http://www.hobbiesfly.com/transmitter-receiver/dtf-uhf-6-channel-long-range-receiver.html
+|}
+== Receiver hardware ==
+{|
+! Name !! Hardware type(no) !! output power (unmodified) !! integrated RF lowpass filter !! max PWM outputs !! improved power filtering !! USB !! size
+|-
+|OrangeRX 9ch RX || 3 || 1.2-100mW || - || 13 || no || - || 51x28x16mm 10.0g || https://www.hobbyking.com/hobbyking/store/__27096__OrangeRx_Open_LRS_433MHz_9Ch_Receiver.html
+|-
+|Flytron 9ch RX || 3 || 1.2-100mW || - || 13 || no || - || 57x27x12mm 8.4g
+|-
+|Hawkeye 9ch RX (blue) || 3 || 1.2-100mW || - || 13 || yes || - || XxXxXmm 9.6g ||  http://www.hobbiesfly.com/transmitter-receiver/hawkeye-9-channel-receiver.html
+|-
+|Hawkeye 9ch RX (black) || 3 || 1.2-100mW || 490MHz || 13 || yes || - || XxXxXmm 9.6g || http://www.hobbiesfly.com/transmitter-receiver/hawkeye-9-channel-long-range-receiver.html
+|-
+|Hawkeye/DTFUHF 6(/4)ch || 5 || 1.2-100mW || 490MHz || 8 || yes || - || 55x20x8mm 7.0g || http://www.hobbiesfly.com/transmitter-receiver/dtf-uhf-6-channel-long-range-receiver.html
+|-
+|Hawkeye/DTFUHF miniRX || 5 || 1.2-100mW || 490MHz || 8 || yes || yes || 57x25x8mm 9.7g || http://www.hobbiesfly.com/transmitter-receiver/dtf-uhf-minirx-long-range-receiver.html
+|-
+|Hawkeye/DTFUHF 1W RX || 5 || ~800mW || 490MHz || 8 || yes || yes || 57x28x8mm 15g || http://www.hobbiesfly.com/transmitter-receiver/dtf-uhf-1watt-long-range-receiver.html
+|-
+|Brotronics PowerTowerRX || 7 || 100mW || 490MHz || 7 || yes || yes || 53x29x13mm || http://www.multirotorsuperstore.com/radio/radio-receivers/brotronics-powertowerrx-for-openlrsng.html
+|-
+|OpenLRSng MicroRX || 8 || 100mW || 490MHz || 5 || yes || - || 22x22x8mm 5g
+|-
+|Brotronics BroversityRX || 9 || 100mW || 490MHz || tbd || yes || yes || tbd || http://www.hobbiesfly.com/transmitter-receiver/brotronics-openlrsng-broversityrx.html
+|-
+|Brotronics 4ch remix || 5 || 100mW || 490MHz || tbd || yes || - || 31x17x8 5g || http://www.hobbiesfly.com/transmitter-receiver/brotronics-4ch-remix-long-range-receiver.html
+|-
+|Brotronics subMicroRX || 5 || 100mW || 490MHz || 4 || yes || - || 17x16x6 2g || http://www.hobbiesfly.com/transmitter-receiver/brotronics-submicrolrs.html
+|-
+|OrangeRX/Flytron TX 100mW/1W|| 2 || 1-100mW / 400mW || - || 7 || ? || - || tbd. || https://www.hobbyking.com/hobbyking/store/__40031__OrangeRX_Open_LRS_433MHz_Transmitter_1W_compatible_with_Futaba_radio_.html
+|}
+
+All receivers support 2 x analog input / I2C / telemetry serial port / up to 16ch PPM
+**Brotronics Modules support real working Sbus. On the Brodiversity module, port 11 is mapped to the TX pin (non inverted) and the Sbus pin (inverted). As a result you can select SBUS for port 11 and connect a simple servo cable to a pixhawk to the RCIN output, and SBUS will get through without problems** (other receivers need a signal inverter for SBUS to work)
